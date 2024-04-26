@@ -20,7 +20,7 @@ const MMSLS = [
  */
 const MMSLS = [
     
-    "https://www.maimemo.com/share/page?uid=34143429&pid=89f3ccba831fa31766bacd47b1d3adb3&tid=067cb5e68061fcb14a30c14160ad9869",
+    "https://www.maimemo.com/share/page?uid=34143429&pid=c2ff9d94995461d34c3ee55bc415c3a5&tid=fa46ee29db1f8885f5033bc2e770bf97",
 
 
   ]
@@ -29,7 +29,7 @@ const MMSLS = [
    * @param {number} min 最小值（包含）
    * @param {number} max 最大值（不包含）
    */
-  function randomNumber(min = 100, max = 10000) {
+  function randomNumber(min = 1, max = 10000) {
     return Math.min(Math.floor(min + Math.random() * (max - min)), max);
   }
   const MMSL_random = MMSLS[randomNumber(0, MMSLS.length)];
